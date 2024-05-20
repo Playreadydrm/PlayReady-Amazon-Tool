@@ -1,5 +1,4 @@
 Hi 
-Hi.gif
 , I'm PlayReady
 
 
