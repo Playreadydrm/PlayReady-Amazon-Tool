@@ -1,0 +1,43 @@
+decrypter: 'packager'
+tag: 'BUY_FROM_Playreadydrm@proton.me'
+tag_sd: 'BUY_FROM_Playreadydrm@proton.me'
+
+aria2c:
+  file_allocation: 'prealloc'
+  
+
+cdm:
+  default: 'amazon'
+  Amazon: 'amazon'
+
+cdm_api:
+  - name: 'amazon'
+    host: 'http://31.207.45.191:62318'
+    username: '4ppl'
+    key: '1256521d4f83411192b923b9f71dd26'
+    device: 'j4'
+    type: 'PLAYREADY'
+    system_id: 12345
+    security_level: 1
+
+credentials:
+  iTunes: 'Playreadydrm@proton.me'
+
+directories:
+  temp: ''
+
+headers:
+  User-Agent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 Edg/121.0.0.0'
+
+
+output_template:
+  movies: '{title}.{year}.{quality}.{source}.WEB-DL.{audio}.{video}-{tag}'
+  series: '{title}.{season_episode}.{episode_name}.{quality}.{source}.WEB-DL.{audio}.{video}-{tag}'
+  use_last_audio: false
+
+profiles:
+  default: 'default'
+  Viki: false
+
+
+nordvpn: {}
