@@ -13,7 +13,7 @@ This is posted to punish the people who are making playready easy available
 
 If you wanna collabrate & need support mail us on Playreadydrm@proton.me
 
-
+Update : API USED IN THIS IS DOWN DUE TO DDOS
 Command used 
 
 poetry run vt dl -al en -sl en -q 1080 Amazon -b cbr -vq hd 0NRT15S2XG06SG5HBV5NQAW3E3
